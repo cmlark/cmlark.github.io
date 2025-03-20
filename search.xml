@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>hexo使用GithubPages搭配Cloudflare实现个人博客</title>
+      <link href="/2025/03/20/hexo%E4%BD%BF%E7%94%A8GithubPages%E6%90%AD%E9%85%8DCloudflare%E5%AE%9E%E7%8E%B0%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2025/03/20/hexo%E4%BD%BF%E7%94%A8GithubPages%E6%90%AD%E9%85%8DCloudflare%E5%AE%9E%E7%8E%B0%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<p>这是一篇文章.</p><p>你好,这只是一个测试.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Github Pages </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2025/03/18/hello-world/"/>
       <url>/2025/03/18/hello-world/</url>
