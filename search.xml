@@ -4,23 +4,23 @@
   
     
     <entry>
-      <title>hexo使用GithubPages搭配Cloudflare实现个人博客</title>
-      <link href="/2025/03/20/60357/"/>
-      <url>/2025/03/20/60357/</url>
+      <title>使用hexo deploy之后github pages就报404</title>
+      <link href="/2025/03/20/b29103fc/"/>
+      <url>/2025/03/20/b29103fc/</url>
       
-        <content type="html"><![CDATA[<p>这是一篇文章.</p><p>你好,这只是一个测试.</p><h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2>]]></content>
+        <content type="html"><![CDATA[<p>配置好了仓库和域名,也启用了强制 https 加密,本来一开始是可以用的,结果只要推送了网页的更新,github 就会报 404 错误,而且仓库设置中 Page 页面的自定义域也会变成空的,这是为什么?</p><p>很神奇对不对 😄</p><p>此问题一般是 git 强制将所有的本地文件完整推送到了 github page 的仓库导致的,从而覆盖了整个仓库的文件,导致把 CNAME 文件也给覆盖了.只需要在本地的仓库文件夹的 source 中新建 CNAME 文件,注意不要有后缀名,然后在里面填写上你的域名就可以,要保持跟之前你在”自定义域”中填写的保持一致就可以.</p><p>写完了保存,然后再执行</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo deploy</span><br></pre></td></tr></table></figure><p>就可以了.</p>]]></content>
       
       
       <categories>
           
-          <category> Github Pages </category>
+          <category> Hexo </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> hexo博客 </tag>
+            <tag> 踩坑记录 </tag>
             
         </tags>
       
